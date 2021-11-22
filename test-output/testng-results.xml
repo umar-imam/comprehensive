@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-22T15:52:42 IST" name="Default suite" finished-at="2021-11-22T15:56:37 IST" duration-ms="234203">
+    <groups>
+    </groups>
+    <test started-at="2021-11-22T15:52:42 IST" name="Default test" finished-at="2021-11-22T15:56:37 IST" duration-ms="234203">
+      <class name="com.mindtree.hybrid.utilities.giftCard">
+        <test-method signature="GiftCard_Page()[pri:0, instance:com.mindtree.hybrid.utilities.giftCard@4acf72b6]" started-at="2021-11-22T15:52:42 IST" name="GiftCard_Page" finished-at="2021-11-22T15:53:01 IST" duration-ms="18176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCard_Page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mindtree.hybrid.utilities.giftCard@4acf72b6]" started-at="2021-11-22T15:53:01 IST" name="tearDown" finished-at="2021-11-22T15:53:04 IST" duration-ms="3553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.hybrid.utilities.giftCard -->
+      <class name="com.mindtree.hybrid.utilities.contactUsTC">
+        <test-method signature="Contact_Page()[pri:0, instance:com.mindtree.hybrid.utilities.contactUsTC@420bc288]" started-at="2021-11-22T15:53:04 IST" name="Contact_Page" finished-at="2021-11-22T15:53:23 IST" duration-ms="18602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact_Page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mindtree.hybrid.utilities.contactUsTC@420bc288]" started-at="2021-11-22T15:53:23 IST" name="tearDown" finished-at="2021-11-22T15:53:26 IST" duration-ms="3497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.hybrid.utilities.contactUsTC -->
+      <class name="com.mindtree.hybrid.utilities.logingPageTc">
+        <test-method signature="Loging_Page()[pri:0, instance:com.mindtree.hybrid.utilities.logingPageTc@64b31700]" started-at="2021-11-22T15:54:49 IST" name="Loging_Page" finished-at="2021-11-22T15:55:08 IST" duration-ms="19049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loging_Page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mindtree.hybrid.utilities.logingPageTc@64b31700]" started-at="2021-11-22T15:55:08 IST" name="tearDown" finished-at="2021-11-22T15:55:11 IST" duration-ms="3509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.hybrid.utilities.logingPageTc -->
+      <class name="com.mindtree.hybrid.utilities.wishListTc">
+        <test-method signature="WishList()[pri:0, instance:com.mindtree.hybrid.utilities.wishListTc@66b72664]" started-at="2021-11-22T15:53:26 IST" name="WishList" finished-at="2021-11-22T15:53:49 IST" duration-ms="22681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WishList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mindtree.hybrid.utilities.wishListTc@66b72664]" started-at="2021-11-22T15:53:49 IST" name="tearDown" finished-at="2021-11-22T15:53:53 IST" duration-ms="4152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.hybrid.utilities.wishListTc -->
+      <class name="com.mindtree.hybrid.utilities.cartTC">
+        <test-method signature="cart_checkout()[pri:0, instance:com.mindtree.hybrid.utilities.cartTC@7a34b7b8]" started-at="2021-11-22T15:53:53 IST" name="cart_checkout" finished-at="2021-11-22T15:54:18 IST" duration-ms="24397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart_checkout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mindtree.hybrid.utilities.cartTC@7a34b7b8]" started-at="2021-11-22T15:54:18 IST" name="tearDown" finished-at="2021-11-22T15:54:22 IST" duration-ms="4144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.hybrid.utilities.cartTC -->
+      <class name="com.mindtree.hybrid.utilities.allOfItTC">
+        <test-method signature="Home_Items()[pri:0, instance:com.mindtree.hybrid.utilities.allOfItTC@3b65e559]" started-at="2021-11-22T15:55:11 IST" name="Home_Items" finished-at="2021-11-22T15:55:34 IST" duration-ms="22978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Items -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mindtree.hybrid.utilities.allOfItTC@3b65e559]" started-at="2021-11-22T15:55:34 IST" name="tearDown" finished-at="2021-11-22T15:55:38 IST" duration-ms="3725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.hybrid.utilities.allOfItTC -->
+      <class name="com.mindtree.hybrid.utilities.HomePage">
+        <test-method signature="Home_Page_Navigation()[pri:0, instance:com.mindtree.hybrid.utilities.HomePage@85ec632]" started-at="2021-11-22T15:55:38 IST" name="Home_Page_Navigation" finished-at="2021-11-22T15:55:52 IST" duration-ms="14217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page_Navigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mindtree.hybrid.utilities.HomePage@85ec632]" started-at="2021-11-22T15:55:52 IST" name="tearDown" finished-at="2021-11-22T15:55:56 IST" duration-ms="3483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.hybrid.utilities.HomePage -->
+      <class name="com.mindtree.hybrid.utilities.SearchTest">
+        <test-method signature="Search_page_navigation()[pri:0, instance:com.mindtree.hybrid.utilities.SearchTest@1c05a54d]" started-at="2021-11-22T15:55:56 IST" name="Search_page_navigation" finished-at="2021-11-22T15:56:12 IST" duration-ms="16594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_page_navigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mindtree.hybrid.utilities.SearchTest@1c05a54d]" started-at="2021-11-22T15:56:12 IST" name="tearDown" finished-at="2021-11-22T15:56:16 IST" duration-ms="3646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.hybrid.utilities.SearchTest -->
+      <class name="com.mindtree.hybrid.utilities.sortTC">
+        <test-method signature="Sort_Product()[pri:0, instance:com.mindtree.hybrid.utilities.sortTC@65ef722a]" started-at="2021-11-22T15:56:16 IST" name="Sort_Product" finished-at="2021-11-22T15:56:33 IST" duration-ms="16954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sort_Product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mindtree.hybrid.utilities.sortTC@65ef722a]" started-at="2021-11-22T15:56:33 IST" name="tearDown" finished-at="2021-11-22T15:56:37 IST" duration-ms="3791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.hybrid.utilities.sortTC -->
+      <class name="com.mindtree.hybrid.utilities.hoverTC">
+        <test-method signature="Hover_Page_Navigation()[pri:0, instance:com.mindtree.hybrid.utilities.hoverTC@58cd06cb]" started-at="2021-11-22T15:54:22 IST" name="Hover_Page_Navigation" finished-at="2021-11-22T15:54:45 IST" duration-ms="23455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hover_Page_Navigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mindtree.hybrid.utilities.hoverTC@58cd06cb]" started-at="2021-11-22T15:54:45 IST" name="tearDown" finished-at="2021-11-22T15:54:49 IST" duration-ms="3515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.hybrid.utilities.hoverTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

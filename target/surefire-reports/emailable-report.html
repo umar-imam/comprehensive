@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">9</td><td class="numi">9</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">202.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.mindtree.hybrid.utilities.wishListTc</td><td><a href="#m1"><b>WishList</b>  </a></td><td class="numi">1</td><td>1637598218443</td><td class="numi">12340</td></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.mindtree.hybrid.utilities.contactUsTC</td><td><a href="#m2"><b>Contact_Page</b>  </a></td><td class="numi">1</td><td>1637598122016</td><td class="numi">15051</td></tr>
+<tr class="passedeven"><td rowspan="1">com.mindtree.hybrid.utilities.logingPageTc</td><td><a href="#m3"><b>Loging_Page</b>  </a></td><td class="numi">1</td><td>1637598141568</td><td class="numi">14673</td></tr>
+<tr class="passedodd"><td rowspan="1">com.mindtree.hybrid.utilities.HomePage</td><td><a href="#m4"><b>Home_Page_Navigation</b>  </a></td><td class="numi">1</td><td>1637598160273</td><td class="numi">10512</td></tr>
+<tr class="passedeven"><td rowspan="1">com.mindtree.hybrid.utilities.SearchTest</td><td><a href="#m5"><b>Search_page_navigation</b>  </a></td><td class="numi">1</td><td>1637598174976</td><td class="numi">14352</td></tr>
+<tr class="passedodd"><td rowspan="1">com.mindtree.hybrid.utilities.giftCard</td><td><a href="#m6"><b>GiftCard_Page</b>  </a></td><td class="numi">1</td><td>1637598193645</td><td class="numi">20624</td></tr>
+<tr class="passedeven"><td rowspan="1">com.mindtree.hybrid.utilities.sortTC</td><td><a href="#m7"><b>Sort_Product</b>  </a></td><td class="numi">1</td><td>1637598235029</td><td class="numi">13758</td></tr>
+<tr class="passedodd"><td rowspan="1">com.mindtree.hybrid.utilities.cartTC</td><td><a href="#m8"><b>cart_checkout</b>  </a></td><td class="numi">1</td><td>1637598253187</td><td class="numi">19970</td></tr>
+<tr class="passedeven"><td rowspan="1">com.mindtree.hybrid.utilities.allOfItTC</td><td><a href="#m9"><b>Home_Items</b>  </a></td><td class="numi">1</td><td>1637598277119</td><td class="numi">21224</td></tr>
+<tr class="passedodd"><td rowspan="1">com.mindtree.hybrid.utilities.hoverTC</td><td><a href="#m10"><b>Hover_Page_Navigation</b>  </a></td><td class="numi">1</td><td>1637598302508</td><td class="numi">18260</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">com.mindtree.hybrid.utilities.wishListTc:WishList</h2>
+<div style="padding-left:3em">
+<p>element click intercepted: Element &lt;button class=&quot;btn btn-default&quot; title=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (761, 580). Other element would receive the click: &lt;img class=&quot;grid-product__image lazyautosizes lazyloaded&quot; data-widths=&quot;[750, 900, 1080]&quot; data-aspectratio=&quot;1.0&quot; data-sizes=&quot;auto&quot; alt=&quot;&quot; data-srcset=&quot;//cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_750x.jpg?v=1636960917 750w, //cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_900x.jpg?v=1636960917 900w, //cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_1080x.jpg?v=1636960917 1080w&quot; sizes=&quot;485px&quot; srcset=&quot;//cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_750x.jpg?v=1636960917 750w, //cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_900x.jpg?v=1636960917 900w, //cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_1080x.jpg?v=1636960917 1080w&quot;&gt;
+  (Session info: chrome=96.0.4664.45)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MT-79DHR93&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\UMARIM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 72d48c7a5f2e664276d1e30015a9524d</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at com.mindtree.hybrid.utilities.wishListTc.WishList(wishListTc.java:29)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.mindtree.hybrid.utilities.contactUsTC:Contact_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.mindtree.hybrid.utilities.HomePage:Home_Page_Navigation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.mindtree.hybrid.utilities.giftCard:GiftCard_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.mindtree.hybrid.utilities.SearchTest:Search_page_navigation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.mindtree.hybrid.utilities.cartTC:cart_checkout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.mindtree.hybrid.utilities.allOfItTC:Home_Items</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.mindtree.hybrid.utilities.logingPageTc:Loging_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.mindtree.hybrid.utilities.hoverTC:Hover_Page_Navigation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.mindtree.hybrid.utilities.sortTC:Sort_Product</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

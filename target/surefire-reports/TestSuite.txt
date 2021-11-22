@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 204.501 s <<< FAILURE! - in TestSuite
+com.mindtree.hybrid.utilities.wishListTc.WishList  Time elapsed: 12.35 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button class="btn btn-default" title="">...</button> is not clickable at point (761, 580). Other element would receive the click: <img class="grid-product__image lazyautosizes lazyloaded" data-widths="[750, 900, 1080]" data-aspectratio="1.0" data-sizes="auto" alt="" data-srcset="//cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_750x.jpg?v=1636960917 750w, //cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_900x.jpg?v=1636960917 900w, //cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_1080x.jpg?v=1636960917 1080w" sizes="485px" srcset="//cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_750x.jpg?v=1636960917 750w, //cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_900x.jpg?v=1636960917 900w, //cdn.shopify.com/s/files/1/1305/2183/files/Flower_Tree_LED_Lamp_9617_-_3_1080x.jpg?v=1636960917 1080w">
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-79DHR93', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\UMARIM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 72d48c7a5f2e664276d1e30015a9524d
+	at com.mindtree.hybrid.utilities.wishListTc.WishList(wishListTc.java:29)
+

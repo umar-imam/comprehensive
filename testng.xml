@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+   
+         <listener class-name="listeners.Listener"/>
+  
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.mindtree.hybrid.utilities.contactUsTC"/>
+      <class name="com.mindtree.hybrid.utilities.logingPageTc"/>
+      <class name="com.mindtree.hybrid.utilities.HomePage"/>
+      <class name="com.mindtree.hybrid.utilities.SearchTest"/>
+      <class name="com.mindtree.hybrid.utilities.giftCard"/>
+      <class name="com.mindtree.hybrid.utilities.wishListTc"/>
+      <class name="com.mindtree.hybrid.comprehensive.base"/>
+      <class name="com.mindtree.hybrid.utilities.sortTC"/>
+      <class name="com.mindtree.hybrid.utilities.cartTC"/>
+      <class name="com.mindtree.hybrid.utilities.allOfItTC"/>
+      <class name="com.mindtree.hybrid.utilities.hoverTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

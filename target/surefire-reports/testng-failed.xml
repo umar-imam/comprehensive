@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="listeners.Listener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.mindtree.hybrid.utilities.giftCard">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mindtree.hybrid.utilities.giftCard -->
+      <class name="com.mindtree.hybrid.utilities.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mindtree.hybrid.utilities.SearchTest -->
+      <class name="com.mindtree.hybrid.utilities.allOfItTC">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mindtree.hybrid.utilities.allOfItTC -->
+      <class name="com.mindtree.hybrid.utilities.sortTC">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mindtree.hybrid.utilities.sortTC -->
+      <class name="com.mindtree.hybrid.utilities.cartTC">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mindtree.hybrid.utilities.cartTC -->
+      <class name="com.mindtree.hybrid.utilities.hoverTC">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mindtree.hybrid.utilities.hoverTC -->
+      <class name="com.mindtree.hybrid.utilities.logingPageTc">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mindtree.hybrid.utilities.logingPageTc -->
+      <class name="com.mindtree.hybrid.utilities.HomePage">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mindtree.hybrid.utilities.HomePage -->
+      <class name="com.mindtree.hybrid.utilities.contactUsTC">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mindtree.hybrid.utilities.contactUsTC -->
+      <class name="com.mindtree.hybrid.utilities.wishListTc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="WishList"/>
+        </methods>
+      </class> <!-- com.mindtree.hybrid.utilities.wishListTc -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
